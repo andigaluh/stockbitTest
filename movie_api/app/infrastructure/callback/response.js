@@ -8,8 +8,6 @@ module.exports = (controller) => {
 
         try {
             const HttpResponse = await controller(httpRequest);
-            //console.log(HttpResponse);
-            //res.status(HttpResponse.statusCode).json(HttpResponse.body);
             res.status(HttpResponse.statusCode).send(HttpResponse.body);
         } catch (error) {
             console.log(error);
