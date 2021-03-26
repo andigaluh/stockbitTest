@@ -9,7 +9,7 @@ const MovieController = buildMovieController(dependencies);
 const app = express();
 
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to the API for stockbit-test - REST omdb API." });
+    res.json({ message: "Welcome to the REST from omdb API." });
 });
 app.get("/movie", [middlewareLogsDB] , buildCallbackResponse(MovieController.getAllMovie));
 app.get("/detail", [middlewareLogsDB] , buildCallbackResponse(MovieController.getMovieById));
