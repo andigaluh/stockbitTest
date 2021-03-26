@@ -1,5 +1,5 @@
 ## Rest API from omDB
-----------
+
 ### Getting started 
 - `git clone https://github.com/andigaluh/stockbitTest.git`
 - `cd movie_api`
@@ -15,9 +15,6 @@
 
 #### Movie
 
-
-    http://localhost:3000/movie
-
 Query
 
 | **params** 	| **required**      |
@@ -27,11 +24,9 @@ Query
 
 ``` http://localhost:3000/movie?keyword=dota ```
 
-Online Demo [http://202.159.121.198:3231/movie?keyword=dota](HERE).
+Online Demo [HERE](http://202.159.121.198:3231/movie?keyword=dota).
 
-#### Detail
-
-    http://localhost:3000/detail
+#### detail
 
 Query
 
@@ -42,4 +37,4 @@ Query
 
 ``` http://localhost:3000/detail?id=tt0111161 ```
 
-Online Demo [http://202.159.121.198:3231/detail?id=tt0111161](HERE).
+Online Demo [HERE](http://202.159.121.198:3231/detail?id=tt0111161).
